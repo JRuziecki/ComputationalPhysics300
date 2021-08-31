@@ -2,7 +2,7 @@
 def Fibonacci(N):
 
     x1,x2 = 1,1 #Starting values for the Fibonacci sequence
-    counter = 0 #Counter to keep track of the length of the sequnce
+    counter = 1 #Counter to keep track of the length of the sequnce
 
     while counter <= N:  #Loops until each number in the Fib. sequence is calculated based on the users request
         print(x1)
